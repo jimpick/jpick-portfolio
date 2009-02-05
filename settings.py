@@ -42,7 +42,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.webdesign',
     'appenginepatcher',
-    'myapp',
+    'portfolioapp',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -58,4 +58,4 @@ TEMPLATE_DIRS = (
 CACHE_BACKEND = 'memcached://?timeout=0'
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = '1234567890'
+SECRET_KEY = '7d29iv'
